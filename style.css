@@ -1,0 +1,157 @@
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 4px 0px;
+}
+
+img {
+    margin-top: 10px;
+}
+
+.heading p {
+    font-size: 18px;
+}
+
+input {
+    width: 100%;
+    border: 1px solid #e6e5e5;
+    border-radius: 4px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 9px;
+    font-size: 18px;
+    color: #202124;
+    outline-color: rgba(26, 115, 200, 1);
+}
+
+a {
+    color: #1a73c8;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.not-yours {
+    color: #5f6368;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapper {
+    width: 500px;
+    border: 1px solid #dadada;
+    border-radius: 8px;
+    padding: 40px 36px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.form-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 35px;
+}
+
+.btn {
+    background-color: #1a73c8;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #0e579c;
+}
+
+.btn-outline {
+    background: none;
+    color: #1a73c8;
+    padding: 10px 0px;
+}
+
+.btn-outline:hover {
+    background: none;
+    background-color: #eef1f3;
+}
+
+.menu {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    margin-right: 2px;
+}
+
+.menu>select {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.terms {
+    display: flex;
+    gap: 24px;
+
+}
+
+.terms>a {
+    color: #272727;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@media (max-width:520px) {
+
+    .wrapper,
+    .menu {
+        width: 85%;
+    }
+}
+
+@media (max-width:350px) {
+
+    .wrapper,
+    .menu {
+        width: 85%;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+}
